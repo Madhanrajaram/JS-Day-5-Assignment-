@@ -1,0 +1,29 @@
+<!doctype html><html><head> 
+  <title> Calculator </title> 
+ </head> 
+ <body> 
+  <script>
+    let a= prompt("Enter a number1: ");
+    a=Number(a);
+    let b= prompt("Enter a number2: ");
+    b=Number(b);
+    let c=prompt("Enter a operator: ");
+    c = c.charAt(0);
+    console.log("Enter two numbers: "+"a"+" "+"b");
+    if(c=='+')
+    console.log("Addition of Two numbers: "+(a+b));
+    else if(c=='-')
+    console.log("Subtraction of Two numbers: "+(a-b));
+    else if(c=='*')
+    console.log("Multiplication of Two numbers: "+(a*b));
+    else if(c=='/')
+    console.log("Division of Two numbers: "+(a/b));
+    else if(c=='%')
+    console.log("Modulation of Two numbers: "+(a%b));
+    else if(c=='s')
+    console.log("Square of Two numbers: "+Math.pow(a,b));
+    else
+    console.log("Invalid Operator");
+</script> 
+ 
+</body></html>

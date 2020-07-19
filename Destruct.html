@@ -1,0 +1,17 @@
+<!doctype html><html><head> 
+  <title> Destructure  </title> 
+ </head> 
+ <body> 
+  <script>
+    const student = 
+      { name :'Helsinki',
+      age:24,
+      projects: {
+        dicename: "Two player dice game using JavaScript"  
+         }
+      };
+      const {name,age, projects:{dicename}} = student;
+      console.log(name,age,dicename);
+</script> 
+ 
+</body></html>

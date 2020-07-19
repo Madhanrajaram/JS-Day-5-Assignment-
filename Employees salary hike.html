@@ -1,0 +1,21 @@
+<!doctype html><html><head> 
+  <title> Salary hike based on sales </title> 
+ </head> 
+ <body> 
+  <script>
+    let a = prompt("Enter the salary of an employee");
+    let a1 = Number(a);
+    console.log(a1);
+    let b = prompt("Sales done by the employee");
+    console.log(b);
+     if(b>=1 && b<=5000)
+      console.log("Commission earned by an employee is: "+(a1*0.02));
+     else if(b>5000 && b<=10000)
+      console.log("Commission earned by an employee is: "+(a1*0.05));
+     else if(b>10000 && b<=20000)
+      console.log("Commission earned by an employee is: "+(a1*0.07));
+     else if(b>20000)
+      console.log("Commission earned by an employee is: "+(a1*0.1));
+</script> 
+ 
+</body></html>
